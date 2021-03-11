@@ -1,0 +1,21 @@
+<head>
+	<script src="//openseadragon.github.io/openseadragon/openseadragon.min.js"></script>
+	<script src="https://cdn.socket.io/3.1.1/socket.io.min.js" integrity="sha384-gDaozqUvc4HTgo8iZjwth73C6dDDeOJsAgpxBcMpZYztUfjHXpzrpdrHRdVp8ySO" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+	<h3 id="room-status">Room not created.</h3>
+	<div>
+		<!-- <p>Viewport coordinate</p> -->
+		<div id="room-buttons">
+			<button id="create-room-button">Create Room</button>
+			<button id="join-room-button">Join Room</button>
+			<button id="leave-room-button" disabled=true>Leave Room</button>
+		</div>
+		<p id="coordinate-show"></p>
+	</div>
+	<div id="seadragon-viewer" style="width:800px; height:400px;"></div>
+	<!-- <div id="seadragon-viewer-2" style="width:800px; height:600px;"></div> -->
+	<script type="text/javascript" src="script1.js"></script>
+	</div>
+</body>
